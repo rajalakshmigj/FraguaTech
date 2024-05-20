@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: flex;
+}
+
+main{
+  width: 100%;
+  padding: 20px;
+}
+
+/* .sidebar {
+  background-color: #555;
+  color: #000000;
+  height: 100vh;
+  width: 50px;
+
+  transition: all 0.5s;
+} */
+
+
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+/* .logo{
+  font-size: 30px;
+} */
+/* 
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 10px;
+} */
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 10px 10px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.nav-link:hover{
+  background-color: red;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.active{
+  background-color: red;
+  color: #fff;
+}
+
+.link_dropdown {
+  padding: 10px 35px;
+}
+
+.icon, .link_text{
+  font-size: 14px;
+}

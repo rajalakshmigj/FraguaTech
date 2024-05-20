@@ -1,0 +1,10 @@
+.toast-container {
+    .Toastify__toast {
+        background-color: #4caf50;
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ;
+        opacity: 1;
+    }  
+}
